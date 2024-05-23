@@ -1,11 +1,12 @@
 using UnityEngine;
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent (typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 6f;
+    [SerializeField] private float speed = 500f;
 
     private Rigidbody _rb;
     private Vector3 _move;
+
     private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
