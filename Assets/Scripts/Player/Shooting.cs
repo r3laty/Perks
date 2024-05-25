@@ -15,9 +15,8 @@ public class Shooting : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && !_isShooting)
         {
-            print("Shot!");
-
             _playerData.Score(scoreAmount);
+            print("Shot!");
             _isShooting = true;
             Recharge();
         }    

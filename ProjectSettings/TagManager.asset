@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Booster
+  - Item
   layers:
   - Default
   - TransparentFX
